@@ -17,12 +17,13 @@ export default function GIFSearch(giphy) {
     return (    
         <form onSubmit={handleSubmit}>
             <input 
+                id="form-input"
                 type="text" 
                 value={searchTerm}
                 onChange={handleChange}
                 placeholder="Search GIFs"
             />
-            <button type='Submit'>Search</button>
+            <button id="form-input"type='Submit'>Search</button>
         </form>
     )
 }
